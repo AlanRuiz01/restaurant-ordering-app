@@ -1,3 +1,59 @@
 body {
+    font-family: "Smythe", system-ui;
     margin: 0;
+    font-size: 2rem;
 } 
+
+section{
+    margin: 0 50px;
+}
+
+/* main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+ 
+header img{
+    width: 100%;
+    height: auto;
+}
+p{
+    padding: 4px 8px;
+
+}
+
+.details{
+    padding: 0;
+    margin: 0;
+}
+.foods{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.icon{
+    font-size: 8rem;
+}
+.food-names , .price{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.buy-icon{
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10;
+    top: 30%;
+}
+.food-ingredients{
+    color: gray;
+}
