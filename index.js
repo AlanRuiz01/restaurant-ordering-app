@@ -1,6 +1,6 @@
 import {menuArray} from '/data.js'
 
-const itemsHtml = menuArray.map(function(food) {
+const itemsHtml = menuArray.map(food => {
     return `
     <section>
     <div class="foods">
